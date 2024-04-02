@@ -12,6 +12,7 @@ The code uses Python3 and PyTorch as auto-differentiation package. To set up an 
 conda create -n cru python=3.9.7
 conda activate cru
 pip install -r requirements.txt
+If pyTorch installment fails, use the following for Windows intallation: pip install torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0
 ```
 
 
