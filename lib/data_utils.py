@@ -268,7 +268,7 @@ class Physionet(Dataset):
         return self.data[index]
 
 
-# new code component 
+# 0 padding is perormed to match length of sequences
 def collate_fn_physionet(batch):
 
     obs = [obs for patient_id, time_points, obs, mask, label in batch]
